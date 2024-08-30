@@ -11,3 +11,5 @@ function generatePassword(length = 12) {
 const passwordLength = 12;
 const newPassword = generatePassword(passwordLength);
 console.log("Generated Password:", newPassword);
+
+module.exports = generatePassword;
